@@ -1,0 +1,69 @@
+{
+  "name": "home",
+  "type": "page",
+  "url": "/home",
+  "params": {},
+  "variables": [
+    {
+      "name": "a",
+      "type": "service",
+      "id": "service"
+    },
+    {
+      "name": "petstore3",
+      "type": "open-api",
+      "id": "open-api"
+    }
+  ],
+  "children": [
+    {
+      "name": "Badge",
+      "nodeName": "bln-badge",
+      "elementId": "",
+      "attributes": [
+        {
+          "property": "core",
+          "value": ""
+        }
+      ],
+      "classList": [],
+      "conditionalClasses": [],
+      "conditionalStyles": [],
+      "contentType": "text",
+      "displayExpression": "",
+      "events": {},
+      "iterate": {
+        "array": "",
+        "variable": "",
+        "trackByIndex": false
+      },
+      "styles": [],
+      "children": [],
+      "comments": "",
+      "type": "core-component",
+      "expressions": []
+    },
+    {
+      "name": "glob1",
+      "nodeName": "glob1",
+      "elementId": "",
+      "attributes": [],
+      "classList": [],
+      "conditionalClasses": [],
+      "conditionalStyles": [],
+      "contentType": "text",
+      "displayExpression": "",
+      "events": {},
+      "iterate": {
+        "array": "",
+        "variable": "",
+        "trackByIndex": false
+      },
+      "styles": [],
+      "children": [],
+      "comments": "",
+      "type": "custom-component",
+      "expressions": []
+    }
+  ]
+}
